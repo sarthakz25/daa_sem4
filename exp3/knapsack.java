@@ -23,7 +23,7 @@ public class knapsack
 		    weight[i] = sc.nextDouble();
 		    System.out.print("enter the profit of weight "+(i+1)+" with value "+weight[i]+": ");
 		    profit[i] = sc.nextDouble();
-		    pwratio[i] = profit[i]/weight[i];	//to calculate the profit weight ratio
+		    pwratio[i] = profit[i]/weight[i]; //to calculate the profit weight ratio
 		}
 		for(i=0; i<num; i++) 
 		{
